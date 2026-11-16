@@ -39,11 +39,17 @@ body {
   color: var(--ink);
   font-family: 'Inter', 'Segoe UI', sans-serif;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 img {
   max-width: 100%;
   display: block;
+}
+
+html, body {
+  min-width: 0;
+  width: 100%;
 }
 
 a {

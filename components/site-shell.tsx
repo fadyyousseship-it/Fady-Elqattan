@@ -2,10 +2,12 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useState } from 'react';
 import { profile, navigation } from '@/data/site-content';
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <div className="min-h-screen bg-[var(--bg)] text-[var(--ink)] antialiased">
@@ -15,7 +17,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
 
       <header className="sticky top-0 z-50 border-b border-[var(--border)] bg-[rgba(251,249,244,0.84)] backdrop-blur-xl text-[var(--ink)]">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
-          <Link href="/" className="text-lg font-semibold tracking-tight text-[var(--ink)]">
+          <Link href="/" className="text-base font-semibold tracking-tight text-[var(--ink)] sm:text-lg">
             {profile.fullName}
           </Link>
 
@@ -35,7 +37,39 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
             })}
           </nav>
 
+          <button
+            type="button"
+            aria-expanded={mobileMenuOpen}
+            aria-label="Toggle navigation menu"
+            onClick={() => setMobileMenuOpen((value) => !value)}
+            className="inline-flex items-center justify-center rounded-full border border-[var(--border)] bg-[rgba(255,255,255,0.8)] p-2 text-[var(--ink)] transition hover:border-[var(--primary)] md:hidden"
+          >
+            <span className="sr-only">Toggle menu</span>
+            <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+              <path d="M4 7h16M4 12h16M4 17h16" />
+            </svg>
+          </button>
         </div>
+
+        {mobileMenuOpen && (
+          <nav aria-label="Mobile navigation" className="border-t border-[var(--border)] bg-[rgba(251,249,244,0.96)] px-4 py-3 md:hidden">
+            <div className="mx-auto flex max-w-7xl flex-col gap-2">
+              {navigation.map((item) => {
+                const isActive = pathname === item.href;
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setMobileMenuOpen(false)}
+                    className={isActive ? 'rounded-full bg-[var(--tint)] px-3 py-2 text-sm font-medium text-[var(--primary)]' : 'rounded-full px-3 py-2 text-sm text-[var(--slate)] hover:bg-[rgba(255,255,255,0.8)] hover:text-[var(--ink)]'}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
+            </div>
+          </nav>
+        )}
       </header>
 
       <main id="main-content" className="min-h-[calc(100vh-200px)]">

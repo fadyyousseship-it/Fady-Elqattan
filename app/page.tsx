@@ -149,26 +149,26 @@ export default function HomePage() {
                 I build secure systems, scientific tools, and community-led technology with a sharp focus on cybersecurity, AI, and honest engineering.
               </p>
 
-              <div className="mt-8 flex flex-wrap gap-3">
-                <Link href="/projects" className="rounded-full bg-[var(--primary)] px-6 py-3 text-sm font-semibold text-white shadow-[0_16px_30px_rgba(37,99,235,0.18)] transition hover:-translate-y-0.5">
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <Link href="/projects" className="w-full rounded-full bg-[var(--primary)] px-6 py-3 text-center text-sm font-semibold text-white shadow-[0_16px_30px_rgba(37,99,235,0.18)] transition hover:-translate-y-0.5 sm:w-auto">
                   View Projects
                 </Link>
-                <Link href="/contact" className="rounded-full border border-[var(--border)] bg-[rgba(255,255,255,0.8)] px-6 py-3 text-sm font-semibold text-[var(--ink)] transition hover:border-[var(--primary)] hover:text-[var(--primary)]">
+                <Link href="/contact" className="w-full rounded-full border border-[var(--border)] bg-[rgba(255,255,255,0.8)] px-6 py-3 text-center text-sm font-semibold text-[var(--ink)] transition hover:border-[var(--primary)] hover:text-[var(--primary)] sm:w-auto">
                   Contact Me
                 </Link>
-                <a href={profile.cvUrl} className="rounded-full border border-[var(--border)] bg-[rgba(255,255,255,0.8)] px-6 py-3 text-sm font-semibold text-[var(--ink)] transition hover:border-[var(--primary)] hover:text-[var(--primary)]">
+                <a href={profile.cvUrl} className="w-full rounded-full border border-[var(--border)] bg-[rgba(255,255,255,0.8)] px-6 py-3 text-center text-sm font-semibold text-[var(--ink)] transition hover:border-[var(--primary)] hover:text-[var(--primary)] sm:w-auto">
                   Download CV
                 </a>
               </div>
 
               <div className="mt-8 flex flex-wrap items-center gap-2 text-sm text-[var(--slate)]">
-                <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" className="rounded-full border border-[var(--border)] bg-[rgba(255,255,255,0.9)] px-3 py-2 transition hover:border-[var(--primary)] hover:text-[var(--primary)]">
+                <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" className="rounded-full border border-[var(--border)] bg-[rgba(255,255,255,0.9)] px-3 py-2 transition hover:border-[var(--primary)] hover:text-[var(--primary)] max-[380px]:w-full max-[380px]:text-center">
                   LinkedIn
                 </a>
-                <a href={profile.githubPrimary} target="_blank" rel="noopener noreferrer" className="rounded-full border border-[var(--border)] bg-[rgba(255,255,255,0.9)] px-3 py-2 transition hover:border-[var(--primary)] hover:text-[var(--primary)]">
+                <a href={profile.githubPrimary} target="_blank" rel="noopener noreferrer" className="rounded-full border border-[var(--border)] bg-[rgba(255,255,255,0.9)] px-3 py-2 transition hover:border-[var(--primary)] hover:text-[var(--primary)] max-[380px]:w-full max-[380px]:text-center">
                   GitHub
                 </a>
-                <a href={`mailto:${profile.email}`} className="rounded-full border border-[var(--border)] bg-[rgba(255,255,255,0.9)] px-3 py-2 transition hover:border-[var(--primary)] hover:text-[var(--primary)]">
+                <a href={`mailto:${profile.email}`} className="rounded-full border border-[var(--border)] bg-[rgba(255,255,255,0.9)] px-3 py-2 transition hover:border-[var(--primary)] hover:text-[var(--primary)] max-[380px]:w-full max-[380px]:text-center">
                   {profile.email}
                 </a>
               </div>
