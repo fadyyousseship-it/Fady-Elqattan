@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { projects } from '@/data/site-content';
 
@@ -12,7 +13,15 @@ export default function ProjectsPage() {
       <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
         {projects.map((project) => (
           <Link key={project.slug} href={`/projects/${project.slug}`} className="group rounded-3xl border border-[var(--border)] bg-[var(--panel)] p-6 transition hover:-translate-y-1 hover:border-[var(--primary)]">
-            <div className="mb-5 h-32 rounded-2xl bg-[radial-gradient(circle_at_top_left,_var(--primary),_transparent_35%),linear-gradient(135deg,var(--panel-soft),var(--bg))]" />
+            <div className="mb-5 overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--panel-soft)] p-2">
+              <Image
+                src={project.image}
+                alt={`${project.title} cover`}
+                width={640}
+                height={360}
+                className="h-32 w-full rounded-xl object-cover"
+              />
+            </div>
             <div className="mb-3 flex items-center justify-between gap-3">
               <span className="status-badge" data-status={project.status}>{project.status}</span>
               <span className="text-[10px] uppercase tracking-[0.14em] text-[var(--muted)]">{project.type}</span>

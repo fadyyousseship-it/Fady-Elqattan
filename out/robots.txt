@@ -1,4 +1,0 @@
-User-Agent: *
-Allow: /
-
-Sitemap: https://fadyyousseship-it.github.io/Fady-Elqattan/sitemap.xml

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { projects } from '@/data/site-content';
@@ -37,8 +38,14 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
           </a>
         </div>
 
-        <div className="mb-10 rounded-2xl border border-[var(--border)] bg-[linear-gradient(135deg,var(--panel-soft),var(--bg))] p-6">
-          <div className="h-60 rounded-2xl bg-[radial-gradient(circle_at_top_left,_var(--primary),_transparent_35%),linear-gradient(135deg,var(--panel),var(--bg))]" />
+        <div className="mb-10 overflow-hidden rounded-2xl border border-[var(--border)] bg-[linear-gradient(135deg,var(--panel-soft),var(--bg))] p-3">
+          <Image
+            src={project.image}
+            alt={`${project.title} project cover`}
+            width={1280}
+            height={720}
+            className="h-60 w-full rounded-2xl object-cover"
+          />
         </div>
 
         <div className="case-study-grid">

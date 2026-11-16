@@ -113,6 +113,7 @@ export const projects = [
     result: 'The project strengthened my understanding of scientific software architecture, real-time data flow, and interface design for research tooling.',
     demo: 'Live simulation dashboard demo placeholder',
     github: 'https://github.com/fadyyousseship-it',
+    image: '/project-covers/md-simulation-dashboard.svg',
     featured: true,
   },
   {
@@ -138,6 +139,7 @@ export const projects = [
     result: 'The project sharpened my ability to turn educational content into a clear, engaging digital experience.',
     demo: 'Live HTML timeline demo',
     github: 'https://github.com/fadyyousseship-it',
+    image: '/project-covers/human-rights-journey-through-time.svg',
     featured: true,
   },
   {
@@ -163,6 +165,7 @@ export const projects = [
     result: 'This project improved my understanding of software architecture, user interactions, and end-to-end system design.',
     demo: 'Library management interactive prototype',
     github: 'https://github.com/fadyyousseship-it',
+    image: '/project-covers/smart-library-management-system.svg',
     featured: true,
   },
   {
@@ -188,6 +191,7 @@ export const projects = [
     result: 'The project developed my understanding of real-time systems, UI/game design and performance-oriented logic.',
     demo: 'Playable game prototype',
     github: 'https://github.com/fadyyousseship-it',
+    image: '/project-covers/flappy-bird-cpp-game.svg',
     featured: false,
   },
   {
@@ -208,6 +212,7 @@ export const projects = [
     result: 'This project reinforced my foundation in Python analysis workflows and statistical thinking.',
     demo: 'Completed learning project',
     github: 'https://github.com/fadyyousseship-it',
+    image: '/project-covers/hacker-statistics.svg',
     featured: false,
   },
   {
@@ -235,6 +240,7 @@ export const projects = [
     result: 'The project strengthened my understanding of browser-based game architecture, offline-friendly front-end design, and educational game systems that combine gameplay with learning goals.',
     demo: 'Browser-based Mars survival game with story and mission progression',
     github: 'https://github.com/fadyyousseship-it/Beyond-Earth',
+    image: '/project-covers/beyond-earth.svg',
     featured: true,
   },
   {
@@ -255,6 +261,7 @@ export const projects = [
     result: 'This project is a future direction for combining data analysis, product thinking, and practical financial insight.',
     demo: 'Planned dashboard concept',
     github: 'https://github.com/fadyyousseship-it',
+    image: '/project-covers/stock-market-analyzer.svg',
     featured: false,
   },
 ];

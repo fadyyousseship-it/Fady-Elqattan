@@ -307,8 +307,14 @@ export default function HomePage() {
         <div className="grid gap-6 lg:grid-cols-3">
           {featuredProjects.map((project) => (
             <Link href={`/projects/${project.slug}`} key={project.slug} className="group block rounded-[28px] border border-[var(--border)] bg-[rgba(255,255,255,0.78)] p-5 shadow-[0_18px_40px_rgba(37,99,235,0.05)] transition duration-200 hover:-translate-y-1 hover:border-[var(--primary)]">
-              <div className="mb-5 rounded-[20px] border border-[var(--border)] bg-[linear-gradient(135deg,#EAF3FB,#FBF9F4_60%,#F3E7CF)] p-4">
-                <div className="h-28 rounded-[16px] border border-[var(--border)] bg-[radial-gradient(circle_at_top_left,_rgba(37,99,235,0.18),transparent_35%),linear-gradient(135deg,#ffffff,#edf5ff)]" />
+              <div className="mb-5 overflow-hidden rounded-[20px] border border-[var(--border)] bg-[linear-gradient(135deg,#EAF3FB,#FBF9F4_60%,#F3E7CF)] p-2">
+                <Image
+                  src={project.image}
+                  alt={`${project.title} cover`}
+                  width={640}
+                  height={360}
+                  className="h-28 w-full rounded-[14px] object-cover"
+                />
               </div>
 
               <div className="mb-4 flex items-center justify-between gap-3">

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Beyond Earth">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#061a2d"/>
+      <stop offset="100%" stop-color="#0d4976"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.2)"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)" rx="28"/>
+  <circle cx="540" cy="72" r="96" fill="#7dd3fc" opacity="0.18"/>
+  <circle cx="80" cy="300" r="120" fill="#fbbf24" opacity="0.18"/>
+  <rect x="36" y="30" width="180" height="36" rx="18" fill="rgba(15,23,42,0.2)"/>
+  <text x="56" y="54" fill="white" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="1.8">MISSION</text>
+  <g opacity="0.9">
+    
+    <circle cx="420" cy="110" r="58" fill="rgba(255,255,255,0.16)"/>
+    <path d="M330 225 L420 85 L510 225" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="420" cy="80" r="16" fill="#fbbf24"/>
+    <rect x="70" y="188" width="190" height="80" rx="18" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.34)"/>
+    <path d="M120 210 L160 210 M130 230 H150 M180 210 L210 210" stroke="rgba(255,255,255,0.9)" stroke-width="8" stroke-linecap="round"/>
+  
+  </g>
+  <rect x="54" y="168" width="200" height="110" rx="20" fill="rgba(12,18,35,0.18)" stroke="rgba(255,255,255,0.4)"/>
+  <rect x="315" y="120" width="250" height="22" rx="11" fill="rgba(255,255,255,0.18)"/>
+  <rect x="315" y="158" width="220" height="18" rx="9" fill="rgba(255,255,255,0.14)"/>
+  <rect x="315" y="192" width="180" height="18" rx="9" fill="rgba(255,255,255,0.14)"/>
+  <rect x="315" y="228" width="250" height="56" rx="18" fill="rgba(255,255,255,0.12)"/>
+  <text x="54" y="296" fill="white" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="800">Beyond Earth</text>
+</svg>
