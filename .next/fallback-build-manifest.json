@@ -1,0 +1,15 @@
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/VBj981S_gEDMpioRuMUPl/_buildManifest.js",
+    "static/VBj981S_gEDMpioRuMUPl/_ssgManifest.js",
+    "static/VBj981S_gEDMpioRuMUPl/_clientMiddlewareManifest.js"
+  ],
+  "rootMainFiles": [],
+  "rootMainFilesTree": {},
+  "pagesChunkGroupBootstrapParams": {}
+}

@@ -1,0 +1,15 @@
+<svg width="128" height="128" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shield" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAF3FB" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+  </defs>
+  <path d="M110 16c28 24 54 34 74 38v52c0 49-27 82-74 100-47-18-74-51-74-100V54c20-4 46-14 74-38z" fill="url(#shield)" stroke="#2563EB" stroke-width="4"/>
+  <path d="M110 46c-30 0-53 22-53 50 0 34 26 55 53 76 27-21 53-42 53-76 0-28-23-50-53-50zm0 20c16 0 28 12 28 27 0 20-16 30-28 39-12-9-28-19-28-39 0-15 12-27 28-27z" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+  <path d="M110 63c17 0 30 13 30 30 0 17-12 28-30 39-18-11-30-22-30-39 0-17 13-30 30-30z" fill="#2563EB" opacity="0.9"/>
+  <path d="M110 95c-7 0-12 6-12 12 0 8 6 14 12 19 6-5 12-11 12-19 0-6-5-12-12-12z" fill="#FFFFFF"/>
+  <path d="M80 105c9-3 19-4 30-4 11 0 21 1 30 4" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M83 79c13 0 24 4 31 12 7-8 18-12 31-12" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M92 86h36" stroke="#2563EB" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+</svg>
