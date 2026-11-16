@@ -1,5 +1,9 @@
 export type ProjectStatus = 'Completed' | 'Working Prototype' | 'In Development' | 'Planned';
 
+const publicBasePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+export const assetPath = (path: string) => `${publicBasePath}${path}`;
+
 export const profile = {
   name: 'Fady Elqattan',
   fullName: 'Fady Elqattan',
@@ -17,7 +21,7 @@ export const profile = {
   githubSecondary: 'https://github.com/FadyElqattan',
   aisuUrl: 'https://a-i-s-u.me',
   instagramUrl: 'https://www.instagram.com/aisu_hue/',
-  cvUrl: '/Fady_Elqattan_Cybersecurity_CV.pdf',
+  cvUrl: assetPath('/Fady_Elqattan_Cybersecurity_CV.pdf'),
 };
 
 export const certificates = [

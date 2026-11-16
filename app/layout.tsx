@@ -3,8 +3,10 @@ import './globals.css';
 import { SiteShell } from '@/components/site-shell';
 import { profile, seo } from '@/data/site-content';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://fadyyousseship-it.github.io/Portofolio'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://fadyyousseship-it.github.io/Fady-Elqattan'),
   title: {
     default: `${profile.name} | Portfolio`,
     template: `%s | ${profile.name}`,
@@ -18,18 +20,18 @@ export const metadata: Metadata = {
     description: seo.description,
     type: 'website',
     siteName: seo.siteName,
-    images: ['/brand/og-image.svg'],
+    images: [`${basePath}/brand/og-image.svg`],
   },
   twitter: {
     card: 'summary_large_image',
     title: `${profile.name} | Portfolio`,
     description: seo.description,
-    images: ['/brand/og-image.svg'],
+    images: [`${basePath}/brand/og-image.svg`],
   },
   icons: {
-    icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
-    apple: '/favicon.svg',
+    icon: `${basePath}/favicon.svg`,
+    shortcut: `${basePath}/favicon.svg`,
+    apple: `${basePath}/favicon.svg`,
   },
 };
 

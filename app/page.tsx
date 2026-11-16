@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import {
+  assetPath,
   certificates,
   currentlyLearning,
   featuredProjects,
@@ -92,6 +93,7 @@ export default function HomePage() {
   const [typedText, setTypedText] = useState('');
   const [lineIndex, setLineIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
+  const profileImageSrc = assetPath('/fady-profile.jpeg');
 
   useEffect(() => {
     const currentLine = typedLines[lineIndex % typedLines.length];
@@ -190,7 +192,7 @@ export default function HomePage() {
                   <div className="grid gap-4 sm:grid-cols-[120px_1fr]">
                     <div className="relative flex min-h-[120px] items-center justify-center overflow-hidden rounded-[22px] border border-[var(--border)] bg-[linear-gradient(135deg,#EAF3FB,#FBF9F4)]">
                       <Image
-                        src="/fady-profile.jpeg"
+                        src={profileImageSrc}
                         alt="Fady Elqattan profile"
                         width={120}
                         height={120}
