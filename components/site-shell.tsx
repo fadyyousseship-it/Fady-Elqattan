@@ -1,26 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { profile, navigation } from '@/data/site-content';
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const [language, setLanguage] = useState<'en' | 'ar'>('en');
-
-  useEffect(() => {
-    const savedLanguage = (window.localStorage.getItem('portfolio-language') as 'en' | 'ar') || 'en';
-    setLanguage(savedLanguage);
-    document.documentElement.lang = savedLanguage;
-    document.documentElement.dir = savedLanguage === 'ar' ? 'rtl' : 'ltr';
-  }, []);
-
-  useEffect(() => {
-    document.documentElement.lang = language;
-    document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
-    window.localStorage.setItem('portfolio-language', language);
-  }, [language]);
 
   return (
     <div className="min-h-screen bg-[var(--bg)] text-[var(--ink)] antialiased">
@@ -50,16 +35,6 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
             })}
           </nav>
 
-          <div className="flex items-center gap-2">
-            <button
-              type="button"
-              aria-label="Toggle language"
-              onClick={() => setLanguage((current) => (current === 'en' ? 'ar' : 'en'))}
-              className="rounded-full border border-[var(--border)] bg-[var(--surface)] px-3 py-1.5 text-sm text-[var(--ink)] shadow-sm transition hover:border-[var(--primary)] hover:text-[var(--primary)]"
-            >
-              {language === 'en' ? 'AR' : 'EN'}
-            </button>
-          </div>
         </div>
       </header>
 
