@@ -9,7 +9,7 @@ self.__SERVER_FILES_MANIFEST={
     "typedRoutes": false,
     "distDir": ".next",
     "cleanDistDir": true,
-    "assetPrefix": "/Portofolio",
+    "assetPrefix": "/Fady-Elqattan",
     "cacheMaxMemorySize": 52428800,
     "configOrigin": "next.config.mjs",
     "useFileSystemPublicRoutes": true,
@@ -43,7 +43,7 @@ self.__SERVER_FILES_MANIFEST={
         256,
         384
       ],
-      "path": "/Portofolio/_next/image/",
+      "path": "/Fady-Elqattan/_next/image/",
       "loader": "default",
       "loaderFile": "",
       "domains": [],
@@ -78,7 +78,7 @@ self.__SERVER_FILES_MANIFEST={
       "maxInactiveAge": 60000,
       "pagesBufferLength": 5
     },
-    "basePath": "/Portofolio",
+    "basePath": "/Fady-Elqattan",
     "sassOptions": {},
     "trailingSlash": true,
     "i18n": null,

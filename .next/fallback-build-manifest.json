@@ -5,9 +5,9 @@
   "devFiles": [],
   "polyfillFiles": [],
   "lowPriorityFiles": [
-    "static/VBj981S_gEDMpioRuMUPl/_buildManifest.js",
-    "static/VBj981S_gEDMpioRuMUPl/_ssgManifest.js",
-    "static/VBj981S_gEDMpioRuMUPl/_clientMiddlewareManifest.js"
+    "static/_5l5JcjgVKA56A3n4scjw/_buildManifest.js",
+    "static/_5l5JcjgVKA56A3n4scjw/_ssgManifest.js",
+    "static/_5l5JcjgVKA56A3n4scjw/_clientMiddlewareManifest.js"
   ],
   "rootMainFiles": [],
   "rootMainFilesTree": {},

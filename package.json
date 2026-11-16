@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "tsc --noEmit",
     "typecheck": "tsc --noEmit",
-    "build:github-pages": "NEXT_PUBLIC_BASE_PATH=/Portofolio next build",
+    "build:github-pages": "NEXT_PUBLIC_BASE_PATH=/Fady-Elqattan NEXT_PUBLIC_SITE_URL=https://fadyyousseship-it.github.io/Fady-Elqattan next build",
     "build:vercel": "next build"
   },
   "dependencies": {

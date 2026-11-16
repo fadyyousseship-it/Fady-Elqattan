@@ -7,16 +7,16 @@ globalThis.__BUILD_MANIFEST = {
     "static/chunks/0cz1d0mv5g_q7.js"
   ],
   "lowPriorityFiles": [
-    "static/VBj981S_gEDMpioRuMUPl/_buildManifest.js",
-    "static/VBj981S_gEDMpioRuMUPl/_ssgManifest.js",
-    "static/VBj981S_gEDMpioRuMUPl/_clientMiddlewareManifest.js"
+    "static/_5l5JcjgVKA56A3n4scjw/_buildManifest.js",
+    "static/_5l5JcjgVKA56A3n4scjw/_ssgManifest.js",
+    "static/_5l5JcjgVKA56A3n4scjw/_clientMiddlewareManifest.js"
   ],
   "rootMainFiles": [
     "static/chunks/1pcw6gskne7pf.js",
     "static/chunks/1wnov70f88xjy.js",
     "static/chunks/092r-mewpaf3q.js",
-    "static/chunks/21o7211p0ewl7.js",
-    "static/chunks/turbopack-1-nexenpzotd2.js"
+    "static/chunks/22n52-65rp0j3.js",
+    "static/chunks/turbopack-2fhltdwsd_1wq.js"
   ],
   "rootMainFilesTree": {},
   "pagesChunkGroupBootstrapParams": {
@@ -25,7 +25,7 @@ globalThis.__BUILD_MANIFEST = {
         "static/chunks/1pcw6gskne7pf.js",
         "static/chunks/1wnov70f88xjy.js",
         "static/chunks/092r-mewpaf3q.js",
-        "static/chunks/21o7211p0ewl7.js"
+        "static/chunks/22n52-65rp0j3.js"
       ],
       "runtimeModuleIds": [
         94553
@@ -36,7 +36,7 @@ globalThis.__BUILD_MANIFEST = {
         "static/chunks/1pcw6gskne7pf.js",
         "static/chunks/1wnov70f88xjy.js",
         "static/chunks/092r-mewpaf3q.js",
-        "static/chunks/21o7211p0ewl7.js"
+        "static/chunks/22n52-65rp0j3.js"
       ],
       "runtimeModuleIds": [
         94553
@@ -47,7 +47,7 @@ globalThis.__BUILD_MANIFEST = {
         "static/chunks/1pcw6gskne7pf.js",
         "static/chunks/1wnov70f88xjy.js",
         "static/chunks/092r-mewpaf3q.js",
-        "static/chunks/21o7211p0ewl7.js"
+        "static/chunks/22n52-65rp0j3.js"
       ],
       "runtimeModuleIds": [
         94553
@@ -58,7 +58,7 @@ globalThis.__BUILD_MANIFEST = {
         "static/chunks/1pcw6gskne7pf.js",
         "static/chunks/1wnov70f88xjy.js",
         "static/chunks/092r-mewpaf3q.js",
-        "static/chunks/21o7211p0ewl7.js"
+        "static/chunks/22n52-65rp0j3.js"
       ],
       "runtimeModuleIds": [
         94553
@@ -69,7 +69,7 @@ globalThis.__BUILD_MANIFEST = {
         "static/chunks/1pcw6gskne7pf.js",
         "static/chunks/1wnov70f88xjy.js",
         "static/chunks/092r-mewpaf3q.js",
-        "static/chunks/21o7211p0ewl7.js"
+        "static/chunks/22n52-65rp0j3.js"
       ],
       "runtimeModuleIds": [
         94553
@@ -80,7 +80,7 @@ globalThis.__BUILD_MANIFEST = {
         "static/chunks/1pcw6gskne7pf.js",
         "static/chunks/1wnov70f88xjy.js",
         "static/chunks/092r-mewpaf3q.js",
-        "static/chunks/21o7211p0ewl7.js"
+        "static/chunks/22n52-65rp0j3.js"
       ],
       "runtimeModuleIds": [
         94553
@@ -91,7 +91,7 @@ globalThis.__BUILD_MANIFEST = {
         "static/chunks/1pcw6gskne7pf.js",
         "static/chunks/1wnov70f88xjy.js",
         "static/chunks/092r-mewpaf3q.js",
-        "static/chunks/21o7211p0ewl7.js"
+        "static/chunks/22n52-65rp0j3.js"
       ],
       "runtimeModuleIds": [
         94553
@@ -102,7 +102,7 @@ globalThis.__BUILD_MANIFEST = {
         "static/chunks/1pcw6gskne7pf.js",
         "static/chunks/1wnov70f88xjy.js",
         "static/chunks/092r-mewpaf3q.js",
-        "static/chunks/21o7211p0ewl7.js"
+        "static/chunks/22n52-65rp0j3.js"
       ],
       "runtimeModuleIds": [
         94553
@@ -113,7 +113,7 @@ globalThis.__BUILD_MANIFEST = {
         "static/chunks/1pcw6gskne7pf.js",
         "static/chunks/1wnov70f88xjy.js",
         "static/chunks/092r-mewpaf3q.js",
-        "static/chunks/21o7211p0ewl7.js"
+        "static/chunks/22n52-65rp0j3.js"
       ],
       "runtimeModuleIds": [
         94553
@@ -124,7 +124,7 @@ globalThis.__BUILD_MANIFEST = {
         "static/chunks/1pcw6gskne7pf.js",
         "static/chunks/1wnov70f88xjy.js",
         "static/chunks/092r-mewpaf3q.js",
-        "static/chunks/21o7211p0ewl7.js"
+        "static/chunks/22n52-65rp0j3.js"
       ],
       "runtimeModuleIds": [
         94553
@@ -135,7 +135,7 @@ globalThis.__BUILD_MANIFEST = {
         "static/chunks/1pcw6gskne7pf.js",
         "static/chunks/1wnov70f88xjy.js",
         "static/chunks/092r-mewpaf3q.js",
-        "static/chunks/21o7211p0ewl7.js"
+        "static/chunks/22n52-65rp0j3.js"
       ],
       "runtimeModuleIds": [
         94553
@@ -146,7 +146,7 @@ globalThis.__BUILD_MANIFEST = {
         "static/chunks/1pcw6gskne7pf.js",
         "static/chunks/1wnov70f88xjy.js",
         "static/chunks/092r-mewpaf3q.js",
-        "static/chunks/21o7211p0ewl7.js"
+        "static/chunks/22n52-65rp0j3.js"
       ],
       "runtimeModuleIds": [
         94553

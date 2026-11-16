@@ -3,16 +3,16 @@
   "pages404": true,
   "appType": "app",
   "caseSensitive": false,
-  "basePath": "/Portofolio",
+  "basePath": "/Fady-Elqattan",
   "redirects": [
     {
-      "source": "/Portofolio",
-      "destination": "/Portofolio/",
+      "source": "/Fady-Elqattan",
+      "destination": "/Fady-Elqattan/",
       "basePath": false,
       "internal": true,
       "priority": true,
       "statusCode": 308,
-      "regex": "^/Portofolio$"
+      "regex": "^/Fady-Elqattan$"
     },
     {
       "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",

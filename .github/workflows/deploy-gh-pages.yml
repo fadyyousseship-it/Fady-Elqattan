@@ -31,7 +31,7 @@ jobs:
         run: npm ci
 
       - name: Build for GitHub Pages
-        run: NEXT_PUBLIC_BASE_PATH=/Portofolio NEXT_PUBLIC_SITE_URL=https://fadyyousseship-it.github.io/Portofolio npm run build
+        run: NEXT_PUBLIC_BASE_PATH=/Fady-Elqattan NEXT_PUBLIC_SITE_URL=https://fadyyousseship-it.github.io/Fady-Elqattan npm run build
 
       - name: Add .nojekyll
         run: touch out/.nojekyll
